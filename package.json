@@ -1,0 +1,39 @@
+{
+  "name": "azure-func-webpack",
+  "version": "0.0.1",
+  "description": "Example Azure Function that uses Webpack with the Serverless Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pjlittle/azure-func-webpack.git"
+  },
+  "keywords": [
+    "Azure",
+    "Function",
+    "Serverless",
+    "Webpack"
+  ],
+  "author": "P.J. Little",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pjlittle/azure-func-webpack/issues"
+  },
+  "homepage": "https://github.com/pjlittle/azure-func-webpack#readme",
+  "dependencies": {
+    "azure": "2.3.1-preview",
+    "lodash": "4.17.11"
+  },
+  "devDependencies": {
+    "serverless": "^1.42.3",
+    "serverless-azure-functions": "^0.7.0",
+    "serverless-webpack": "^5.3.0",
+    "webpack": "^4.31.0"
+  },
+  "engines": {
+    "node": ">=10.14.2",
+    "npm": ">=6.4.1"
+  }
+}
