@@ -23,6 +23,7 @@ provider:
 
 plugins:
   - serverless-azure-functions
+  - serverless-webpack
 
 # you can add packaging information here
 #package:
@@ -55,3 +56,8 @@ functions:
 #     x-azure-settings:
 #       name: bindingName
 #       direction: in
+
+custom:
+  webpack:
+    # includeModules: true
+    keepOutputDirectory: true

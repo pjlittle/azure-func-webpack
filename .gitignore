@@ -62,6 +62,10 @@ typings/
 
 # serverless framework packaging
 .serverless/
+.webpack/
+
+# vscode
+.vscode/
 
 # OSX
 .DS_Store
