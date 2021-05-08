@@ -24,7 +24,7 @@
   "homepage": "https://github.com/pjlittle/azure-func-webpack#readme",
   "dependencies": {
     "@azure/ms-rest-nodeauth": "2.0.0",
-    "lodash": "4.17.11"
+    "lodash": "4.17.21"
   },
   "devDependencies": {
     "jest": "^24.8.0",
